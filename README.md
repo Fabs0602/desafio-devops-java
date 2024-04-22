@@ -79,7 +79,7 @@ docker exec <nomeDaImagem> rm /usr/local/tomcat/webapps/<nomeDoArquivoWarAntigoA
 - Para o redeploy iremos basicamente copiar o arquivo .war novo para o volume que já temoscriado
   
 ````docker
-# Copiando o novo arquivo WAR para o contêiner em execução
+# Copiando o novo arquivo WAR para o conteiner em execução
 docker cp <nomeArquivoWar>.war <nomeDoVolume>:/usr/local/tomcat/webapps/
 ````
 
