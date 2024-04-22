@@ -83,7 +83,13 @@ docker exec <nomeDaImagem> rm /usr/local/tomcat/webapps/<nomeDoArquivoWarAntigoA
 docker cp <nomeArquivoWar>.war <nomeDoVolume>:/usr/local/tomcat/webapps/
 ````
 
-### Integrantes do grupo
+## Outros Desafios
+Além da aplicação com Java, nosso grupo enfrentou outros desafios interessantes que complementam a avaliação da disciplina de DevOps. Confira os repositórios de cada desafio abaixo:
+- [Desafio DockerFile com Python](https://github.com/laiscrz/desafio-devops-python)
+- [Desafio DockerFile com Node.Js](https://github.com/biancaroman/desafio-devops-nodejs)
+
+
+## Integrantes do grupo
 <table>
   <tr>
         <td align="center">
