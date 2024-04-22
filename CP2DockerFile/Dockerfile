@@ -2,7 +2,7 @@
 FROM tomcat:10
 
 # Copiando o arquivo WAR da aplicação para o diretório padrão de implantação do Tomcat
-COPY DimMoneyAppRm552252Rm97916.war /usr/local/tomcat/webapps/
+COPY DimMoneyAppRm99675.war /usr/local/tomcat/webapps/
 
 # Expondo a porta adequada para que a aplicação seja acessível pelo nosso Host
 EXPOSE 8080
