@@ -10,5 +10,5 @@ EXPOSE 8080
 #Definindo o diretório de trabalho como /usr/local/tomcat/webapps
 WORKDIR /usr/local/tomcat/webapps
 
-#
+# Comando padrão a ser executado quando o contêiner é iniciado. 
 CMD ["catalina.sh", "run"]
